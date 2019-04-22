@@ -1,0 +1,25 @@
+query getAllMessageHistory {
+  getAllMessageHistory{
+    id
+    listId
+    listData {
+      id
+      title
+      }
+      hostProfile {
+      displayName
+      profileId
+     }
+      hostUserData {
+      email
+    }
+
+      guestProfile {
+      displayName
+      profileId
+    }   
+     guestUserData {
+      email
+    }
+  }
+}

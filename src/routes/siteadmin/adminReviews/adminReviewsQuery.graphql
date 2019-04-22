@@ -1,0 +1,15 @@
+query getAdminReviews {
+  getAdminReviews{
+    id
+    listId
+    listData {
+      id
+      title
+    }
+    authorId
+    reviewContent
+    rating
+    createdAt
+    updatedAt
+  }
+}

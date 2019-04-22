@@ -1,0 +1,25 @@
+query getAllReport{
+  getAllReport{
+    id
+    reporterId
+    userId
+    reportType
+    createdAt
+    reporterData{
+      displayName
+    }
+    userData{
+      displayName
+      profileId
+    }
+    userEmail{
+      email         
+    }
+    reporterEmail{
+      email      
+    }
+    userProfileId{
+      profileId
+    }
+  }
+}

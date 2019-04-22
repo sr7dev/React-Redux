@@ -1,0 +1,20 @@
+query PendingReviews{
+  pendingReviews{
+    id
+    listId
+    hostId
+    guestId
+    hostData {
+      profileId
+      firstName
+      lastName
+      picture
+    }
+    guestData {
+      profileId
+      firstName
+      lastName
+      picture
+    }
+  }
+}

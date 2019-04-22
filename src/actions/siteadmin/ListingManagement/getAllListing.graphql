@@ -1,0 +1,23 @@
+query getAllListing {
+  getAllListings{
+    id
+    title
+    city
+    state
+    country
+    createdAt
+    user{
+      email
+      profile {
+          firstName
+      }
+    }
+    listPhotos {
+      name
+    }
+    recommend{
+        id
+        listId
+    }
+  }
+}

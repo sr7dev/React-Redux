@@ -1,0 +1,6 @@
+@import '../../../../components/common.css';
+
+.checkboxSection {
+    width: 2%;
+    padding-right: 10px;
+}

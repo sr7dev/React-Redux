@@ -1,0 +1,25 @@
+{
+    getAllListings{
+        id
+        title
+        city
+        state
+        country
+        createdAt
+        isPublished
+        isReady
+        user{
+            email
+            profile {
+                firstName
+            }
+        }
+        listPhotos {
+            name
+        }
+        recommend{
+            id
+            listId
+        }
+    }
+}

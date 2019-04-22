@@ -1,0 +1,47 @@
+@import '../common.css';
+
+.profileAvatarSection {
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.profileAvatarLink {
+  backface-visibility: hidden;
+  position: relative;
+  display: inline-block;
+  vertical-align: bottom;
+  overflow: hidden;
+  background-color: #bbb;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.profileAvatar {
+  height: 90px;
+  width: 90px;
+}
+
+.overviewIcon {
+  font-size: 2.4em;
+  text-align: center;
+  color: #767676;
+}
+
+.textMuted, .textMuted:hover, .textMuted:focus, .textMuted:hover:focus {
+  color: #767676;
+  text-decoration: none;
+  font-size: inherit;
+}
+
+.reviewStar {
+    display: inline;
+    position: relative;
+    float: left;
+}
+
+@media screen and (max-width: 640px){
+  .introCenter{
+    text-align: center;
+  }
+}
